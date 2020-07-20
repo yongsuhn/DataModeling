@@ -14,8 +14,8 @@
                     "python app.py" to run after installing dependences
   ├── config.py *** Database URLs, CSRF generation, etc
   ├── error.log
-  ├── forms.py *** Your forms
-  ├── requirements.txt *** The dependencies we need to install with "pip3 install -r requirements.txt"
+  ├── forms.py *** forms
+  ├── requirements.txt *** The dependencies need to install with "pip3 install -r requirements.txt"
   ├── static
   │   ├── css 
   │   ├── font
@@ -38,7 +38,7 @@ Overall:
 
 ### Development Setup
 
-First, [install Flask](http://flask.pocoo.org/docs/1.0/installation/#install-flask) if you haven't already.
+First, [install Flask](http://flask.pocoo.org/docs/1.0/installation/#install-flask).
 
   ```
   $ cd ~
